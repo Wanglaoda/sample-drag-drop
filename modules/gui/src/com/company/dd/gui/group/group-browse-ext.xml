@@ -7,27 +7,6 @@
         <web class="com.company.dd.web.group.GroupBrowseCompanion"/>
     </companions>
     <layout>
-        <split id="split"
-               height="100%">
-            <vbox id="topBox">
-                <tree id="groupsTree"
-                      height="100%"/>
-            </vbox>
-            <vbox id="tabSheetBox">
-                <tabSheet id="tabsheet">
-                    <tab id="usersTab">
-                        <filter/>
-                    </tab>
-                    <tab id="constraintsTab">
-                        <table id="constraintsTable"
-                               height="100%"/>
-                    </tab>
-                    <tab id="attributesTab">
-                        <table id="attributesTable"
-                               height="100%"/>
-                    </tab>
-                </tabSheet>
-            </vbox>
-        </split>
+
     </layout>
 </window>

@@ -30,7 +30,7 @@ public class GroupBrowseCompanion implements GroupBrowseExt.Companion {
         vTable.setDragMode(com.vaadin.ui.Table.TableDragMode.ROW);
 
         CubaTree vTree = groupsTree.unwrap(CubaTree.class);
-        vTree.setDragMode(com.vaadin.ui.Tree.TreeDragMode.NODE);
+//        vTree.setDragMode(com.vaadin.ui.Tree.TreeDragMode.NODE);
         vTree.setDropHandler(new DropHandler() {
             @Override
             public void drop(DragAndDropEvent dropEvent) {
